@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.telefone{
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    border: solid 1px;
+    border-color: black;
+    cursor: pointer;
+}
+table tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+thead{
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: lightgray;
+}
+tr{
+    text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+  
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: .5em;
+    float: left;
+  }
+  .rodape{
+    font-size: 25px;
+    font: 1em sans-serif;
+    font-weight: bold;
+  }
